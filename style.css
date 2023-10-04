@@ -13,16 +13,20 @@ body {
 }
 
 header {
-    min-height: 15vh;
+    min-height: 10vh;
+    background-color: rgb(212, 232, 237);
 
 }
 
 main {
-    min-height: 75vh;
+    min-height: 80vh;
+    background-color: rgb(212, 232, 237);
 
 }
 
 footer {
     min-height: 10vh;
+
+
 
 }
