@@ -9,24 +9,21 @@
 body {
 
     min-height: 100vh;
-
+    background-attachment: fixed;
 }
 
 header {
-    min-height: 10vh;
-    background-color: rgb(212, 232, 237);
-
+    min-height: 20vh;
+    background-color: rgb(240, 248, 249);
 }
 
 main {
-    min-height: 80vh;
-    background-color: rgb(212, 232, 237);
+    min-height: 70vh;
+    background-color: rgb(240, 248, 249);
 
 }
 
 footer {
     min-height: 10vh;
-
-
 
 }
