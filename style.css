@@ -27,3 +27,18 @@ footer {
     min-height: 10vh;
 
 }
+
+table {
+    border: 3px solid;
+
+
+}
+
+td,
+th {
+    border: 2px solid;
+    text-align: justify;
+    width: 100px;
+    height: 50px;
+
+}

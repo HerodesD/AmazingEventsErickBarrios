@@ -14,6 +14,9 @@
 <body>
 
     <header>
+
+        <!-- Barra de Navegación -->
+
         <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div class="container-fluid">
                 <img class="ms-3" src="./Recursos_Amazing_Events_Task_1/amazing_brand.png" width="120" alt="">
@@ -31,10 +34,10 @@
                             <a class="nav-link active" href="./Home.html">Home</a>
                         </li>
                         <li class="nav-item px-4 mx-3 border">
-                            <a class="nav-link active" href="./PastEvents.html">Past Events</a>
+                            <a class="nav-link active" href="./UpcomingEvents.html">Upcoming Events</a>
                         </li>
                         <li class="nav-item px-4 mx-3 border">
-                            <a class="nav-link active" href="./UpcomingEvents.html">Upcoming Events</a>
+                            <a class="nav-link active" href="./PastEvents.html">Past Events</a>
                         </li>
                         <li class="nav-item px-4 mx-3 border">
                             <a class="nav-link active" href="./Contact.html">Contact</a>
@@ -48,23 +51,122 @@
             </div>
 
         </nav>
+
+        <!-- Carrusel de Imagenes -->
+
+        <div id="carouselA" class="carousel slide " data-bs-ride="carousel">
+            <div class=" carousel-inner">
+                <div class=" carousel-item active" style="width:100%;  height: 120px;" data-bs-interval=" 3000">
+
+                    <img src="./Recursos_Amazing_Events_Task_1/optional_banner_2.jpg"
+                        style="width:100%;  height: 500px;" class="img-fluid d-block" alt="...">
+
+                    <div class="carousel-caption d-md-block">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="width:100%;  height: 120px;" data-bs-interval="3000">
+                    <img src="./Recursos_Amazing_Events_Task_1/optional_banner_1.jpg"
+                        style="width:100%;  height: 500px;" class="img-fluid d-inline-block" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h1>Contact</h1>
+
+                    </div>
+                </div>
+                <div class="carousel-item" style="width:100%;  height: 120px;" data-bs-interval="3000">
+                    <img src="./Recursos_Amazing_Events_Task_1/optional_banner_4.jpg"
+                        style="width:100%;  height: 500px;" class="img-fluid d-block" alt="...">
+                    <div class="carousel-caption  d-md-block">
+                        <h1>Contact</h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <main>
+    <main class="container-fluid d-flex justify-content-center ">
+
+        <!-- Tabla -->
+
+        <table class="table table-striped table-dark" style="width: 80%;">
+            <thead>
+                <tr>
+                    <th class="table-active" colspan="3"> Events Statistics</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-info">
+                    <td>Events with highest % of assistance</td>
+                    <td>Events with lowest % of assistance</td>
+                    <td>Events with larger capacity</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="3">Upcoming events statistics by category</th>
+
+                </tr>
+                <tr class="table-info">
+                    <td>Categories</td>
+                    <td>Revenues</td>
+                    <td>Percentage of asistance</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th colspan="3">Past events statistics by category</th>
+
+                </tr>
+                <tr class="table-info">
+                    <td>Categories</td>
+                    <td>Revenues</td>
+                    <td>Percentage of asistance</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
 
     </main>
+    <footer class="bg-dark container-fluid text-light">
 
-    <footer class="bg-dark container-fluid text-light ">
 
-        <div class="row align-items-center py-4 gap-3 ">
-
-            <div class=" col-10 ">
-                <a class="mx-4" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/facebook.png" alt=""></a>
-                <a class="mx-4" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/instagram.png"
+        <div class="d-flex justify-content-between mx-3 py-4">
+            <div>
+                <a class="mx-2" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/facebook.png" alt=""></a>
+                <a class="mx-2" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/instagram.png"
                         alt=""></a>
-                <a class="mx-4" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/whatsapp.png" alt=""></a>
+                <a class="mx-2" href="#"><img width="30" src="./Recursos_Amazing_Events_Task_1/whatsapp.png" alt=""></a>
             </div>
-            <div class="col tex-center">
+            <div>
                 <p>Rappi-FrontEnd</p>
             </div>
 
