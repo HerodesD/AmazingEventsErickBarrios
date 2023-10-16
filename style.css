@@ -23,6 +23,10 @@ main {
 
 }
 
+.card {
+    width: 20rem;
+}
+
 footer {
     min-height: 10vh;
 
